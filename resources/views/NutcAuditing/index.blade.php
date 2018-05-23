@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layouts.layout')
 @section('content')
 
     <link rel="stylesheet" href="{{asset('/css/Auditing_Index.css')}}">
@@ -18,4 +18,4 @@
             <!-- /.box -->
         </div>
     </section>
-@stop
+@endsection
